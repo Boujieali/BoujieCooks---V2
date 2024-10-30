@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+    - primary meta tags
+  -->
+  <title>BoujieCooks - Eat Your Way</title>
+  <meta name="title" content="BoujieCooks - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by BoujieCooks">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="images/picsvg_download.svg" type="image/svg+xml">
+
+</head>
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/bbglogofood.png" alt="BoujieCooks Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#menu">Menus</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#reservation" class="book-btn">Book a Table</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p class="contact-location">Airport Bypass Rd, Accra, GH</p>
+                <p class="contact-number">+233-123-123456</p>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to BoujieCooks</h2>
+            <p>Authentic Ghanaian Cuisine</p>
+            <a href="#reservation" class="hero-btn">Book a Table</a>
+        </div>
+        <div>
+            <img src="images/WhatsApp Image 2024-07-10 at 06.25.20.jpeg" alt="Hero Image" class="hero-images">
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2 class="section-title">Delicious Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/Menu 11.jpeg" alt="Chicken Jollof">
+                <h3>Chicken Jollof Rice</h3>
+                <p>Drumstick Chicken with Eggs and Black sauce.</p>
+                <span class="price">GHS 75.00</span>
+            </div>
+            <div class="menu-item">
+                <img src="images/Menu 4.jpeg" alt="Fufu with Palmnut Soup">
+                <h3>Fufu with Palmnut Soup <span class="tag new">New</span></h3>
+                <p>Various proteins of your choice with Palmnut Soup</p>
+                <p class="price">GHS90.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/Menu 3.jpeg" alt="Shrimp Fried Rice">
+                <h3>Shrimp Fried Rice</h3>
+                <p>Seasoned Shrimps with Vegetables.</p>
+                <span class="price">GHS 130.00</span>
+            </div>
+        </div>
+    </section>
+
+<!-- About Us Section -->
+<section id="about">
+    <div class="container about-container">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/WhatsApp Image 2024-10-06 at 16.35.37.jpeg" alt="Chef Image">
+            </div>
+            <div class="about-description">
+                <h2>About Us</h2>
+                <p>Welcome to BoujieCooks! We specialize in delivering an unforgettable dining experience with the best of Ghanaian cuisine. Our passion for food and dedication to authentic flavors set us apart. From carefully crafted traditional dishes to our modern takes on beloved favorites, we aim to provide a dining experience that stays with you.</p>
+                <p>Our head chef, Alice Mensah Adu-Gyamfi, brings years of culinary expertise, blending culture and taste in every dish.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="reservation">
+        <h2 class="section-title">Online Reservation</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <input type="number" name="guests" placeholder="Number of Guests" required>
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Book a Table</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Booking Request: <strong>+233-123-123456</strong></p>
+        <p>Location: Airport Bypass Rd, Airport City, Accra, GH</p>
+        <p>Lunch Time: Monday to Sunday 11.00 am – 2.30 pm</p>
+        <p>Dinner Time: Monday to Sunday 5.00 pm – 10.00 pm</p>
+
+        
+        <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BoujieCooks. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
