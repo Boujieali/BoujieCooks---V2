@@ -306,24 +306,7 @@ nav ul li a:hover {
 html {
     scroll-behavior: smooth;
 }
-.success-message {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 15px 20px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-.success-message .tick {
-    font-size: 18px;
-    margin-right: 8px;
-}
+
 
 /* Footer */
 footer {
